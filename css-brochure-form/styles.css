@@ -1,0 +1,67 @@
+.atlas {
+  font-family: 'AtlasGrotesk', sans-serif;
+  font-weight: bold;
+}
+
+.bran {
+  font-size: 100%;
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+.branBold {
+  font-size: 80%;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: bold;
+}
+
+.centert {
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+
+.centerb {
+  width: 50%;
+  margin: auto;
+}
+
+.tOffset {
+  margin-left: 0.75rem;
+}
+
+.margin {
+  margin-bottom: 1rem;
+}
+
+.redHeading {
+  font-size: 115%;
+  color: rgb(238, 113, 113);
+}
+
+.inputfield {
+  width: 100%;
+  font-size: 90%;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: lightgray;
+  border-style: solid;
+  padding: 0.75rem 0.75rem;
+  border-radius: 6px;
+}
+
+.redButton {
+  font-size: 90%;
+  border: none;
+  float: right;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  background-color: rgb(238, 113, 113);
+}
+
+.grayfield {
+  background-color: rgb(238, 238, 238);
+}
+
+::placeholder {
+  color: lightgray;
+}
