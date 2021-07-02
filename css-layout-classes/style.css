@@ -1,0 +1,30 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  width: 960px;
+  margin: auto;
+  display: flex;
+}
+
+.column-one-quarter {
+  flex-basis: 25%;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-third {
+  flex-basis: calc(2 * 100% / 3);
+}
+
+.imgcontainer {
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.imgsize {
+  width: 100%;
+}
