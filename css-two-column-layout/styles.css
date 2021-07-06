@@ -1,0 +1,70 @@
+body {
+  max-width: 960px;
+  margin: auto;
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  margin: 2rem auto 0 auto;
+  font-size: 350%;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.titlerow {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  margin: 0 2rem;
+  display: flex;
+}
+
+.h3row {
+  max-width: 16rem;
+  flex-wrap: wrap;
+}
+
+.col-1of2 {
+  margin: 2rem;
+  display: flex;
+  flex-basis: 50%;
+}
+
+.col-1of4 {
+  flex-basis: 15%;
+}
+
+.col-3of4 {
+  flex-basis: 85%;
+}
+
+.logosize {
+  max-width: 100px;
+}
+
+.learnbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.learnbutton button {
+  font-weight: 700;
+  padding: 0.5rem 2.5rem;
+  color: rgb(238, 28, 28);
+  background-color: white;
+  border: 2px solid rgb(238, 28, 28);
+}
+
+button:hover {
+  background-color: rgb(226, 226, 226);
+}
