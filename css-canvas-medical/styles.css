@@ -98,6 +98,15 @@ button.contact-us:hover {
   background-size: cover;
 }
 
+.productbanner {
+  margin: 4rem;
+  width: 1072px;
+  height: 550px;
+  position: relative;
+  background-image: url('images/product/product-header.jpg');
+  background-size: cover;
+}
+
 .bannertext {
   color: white;
   font-family: "Avenir", sans-serif;
