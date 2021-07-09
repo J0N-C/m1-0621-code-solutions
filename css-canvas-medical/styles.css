@@ -1,0 +1,210 @@
+* {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  font-family: 'Tiempos Headline', serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'Tiempos Headline', serif;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  font-size: 150%;
+}
+
+h4 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 580;
+}
+
+p {
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+}
+
+header {
+  border-bottom: 1px solid darkgray;
+}
+
+footer {
+  border-top: 1px solid darkgray;
+}
+
+.justify-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  margin: 1rem 4rem;
+  font-family: "Avenir", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.logoimg {
+  max-width: 150px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: gray;
+}
+
+.col-3-4 {
+  flex-basis: 50%;
+  display: flex;
+  margin: 0;
+}
+
+.col-1-2 {
+  flex-basis: 50%;
+}
+
+.col-1-4 {
+  margin: 0;
+  flex-basis: 25%;
+}
+
+.contact-us {
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  color: lightgray;
+  background-color: rgb(22, 68, 114);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+button.contact-us:hover {
+  background-color: rgb(36, 99, 161);
+}
+
+.get-started {
+  font-size: 100%;
+  padding: 0.75rem 2rem;
+}
+
+.startbanner {
+  margin: 4rem;
+  width: 1072px;
+  height: 550px;
+  position: relative;
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+}
+
+.bannertext {
+  color: white;
+  font-family: "Avenir", sans-serif;
+  position: absolute;
+  margin: 4rem;
+  width: 48%;
+  line-height: 2rem;
+}
+
+.overlay {
+  background: rgba(100, 100, 100, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.bannertext h2 {
+  font-size: 250%;
+  line-height: 3rem;
+}
+
+.bannertext p {
+  margin: 2rem 0;
+}
+
+.infobox {
+  background-color: rgb(250, 250, 250);
+  padding: 4rem;
+}
+
+.infotext {
+  color: rgb(129, 129, 129);
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+.row1 {
+  flex-basis: 100%;
+  text-align: center;
+  max-width: 36rem;
+  padding-bottom: 4rem;
+}
+
+.infocols {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infocols * {
+  padding: 1rem 4rem;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.learn-more {
+  margin: 2rem 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-info {
+  display: flex;
+  background-color: rgb(78, 78, 78);
+  padding: 6rem 4rem;
+  font-family: "Avenir", sans-serif;
+  align-items: flex-start;
+}
+
+.footer-info img {
+  padding-bottom: 2rem;
+}
+
+.footertext {
+  color: white;
+  font-family: "Avenir", sans-serif;
+  margin: 0;
+  width: 48%;
+  line-height: 1.5rem;
+}
+
+.footer-info h4 {
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.footer-info a {
+  padding-bottom: 1rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links {
+  background-color: rgb(250, 250, 250);
+  padding: 3rem 4rem;
+}
+
+.footer-links a {
+  font-family: "Avenir", sans-serif;
+  font-weight: bold;
+  padding-right: 2rem;
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: rgb(197, 197, 197);
+}
