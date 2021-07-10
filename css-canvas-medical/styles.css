@@ -13,7 +13,7 @@ h3 {
   font-family: 'Tiempos Headline', serif;
   font-weight: 300;
   margin-bottom: 1rem;
-  font-size: 150%;
+  font-size: 160%;
 }
 
 h4 {
@@ -37,6 +37,16 @@ footer {
 .justify-right {
   display: flex;
   justify-content: flex-end;
+}
+
+.center {
+  text-align: center;
+}
+
+.quote {
+  font-family: 'Tiempos Headline', serif;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .navbar {
@@ -68,6 +78,47 @@ footer {
 .col-1-4 {
   margin: 0;
   flex-basis: 25%;
+}
+
+.col40 {
+  flex-basis: 40%;
+}
+
+.col60 {
+  flex-basis: 60%;
+  display: flex;
+}
+
+.infocols3 {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infocols3 p {
+  margin: 0;
+  flex-basis: calc(100% / 3);
+  padding: 1rem;
+  text-align: center;
+}
+
+.team {
+  margin: 0 4rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member {
+  text-align: center;
+  flex-basis: calc(100% / 3);
+  padding-bottom: 1rem;
+}
+
+.faceimg {
+  margin: 1rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
 }
 
 .contact-us {
@@ -107,6 +158,31 @@ button.contact-us:hover {
   background-size: cover;
 }
 
+.implementbanner {
+  margin: 4rem;
+  width: 1072px;
+  height: 550px;
+  position: relative;
+  background-image: url('images/implementation/implementation-header.jpg');
+  background-size: cover;
+}
+
+.about-usbanner {
+  margin: 4rem;
+  width: 1072px;
+  height: 550px;
+  position: relative;
+  background-image: url('images/about-us/about-us-header.jpg');
+  background-size: cover;
+}
+
+.productlearn {
+  display: block;
+  margin: 1rem 0;
+  text-decoration: none;
+  color: rgb(36, 99, 161);
+}
+
 .bannertext {
   color: white;
   font-family: "Avenir", sans-serif;
@@ -117,7 +193,7 @@ button.contact-us:hover {
 }
 
 .overlay {
-  background: rgba(100, 100, 100, 0.3);
+  background: rgba(97, 97, 97, 0.4);
   position: absolute;
   top: 0;
   left: 0;
@@ -139,8 +215,12 @@ button.contact-us:hover {
   padding: 4rem;
 }
 
+.infoboxwhite {
+  padding: 4rem;
+}
+
 .infotext {
-  color: rgb(129, 129, 129);
+  color: rgb(100, 100, 100);
   line-height: 1.5rem;
   margin: 0;
 }
@@ -161,6 +241,48 @@ button.contact-us:hover {
   padding: 1rem 4rem;
   flex-basis: 50%;
   text-align: center;
+}
+
+.productcols {
+  display: flex;
+}
+
+.productimg {
+  padding: 2rem;
+  max-height: 500px;
+}
+
+.listmargin {
+  margin: 4rem 16rem;
+}
+
+.listmargin h4 {
+  font-size: 115%;
+  margin-bottom: 1rem;
+  display: inline;
+}
+
+.listmargin p {
+  font-size: 90%;
+  margin: 1rem 0 3rem 0;
+}
+
+.numlist {
+  list-style: none;
+  counter-reset: numlistcounter;
+}
+
+.numlist li {
+  counter-increment: numlistcounter;
+}
+
+.numlist li::before {
+  content: counter(numlistcounter) ". ";
+  font-size: 150%;
+  font-family: 'Tiempos Headline', serif;
+  font-weight: 300;
+  color: rgb(100, 100, 100);
+  margin-right: 0.5rem;
 }
 
 .learn-more {
