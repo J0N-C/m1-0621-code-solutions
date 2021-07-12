@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2 {
   font-family: 'Tiempos Headline', serif;
@@ -21,9 +25,14 @@ h4 {
   font-weight: 580;
 }
 
-p {
+p,
+label {
   font-family: "Avenir", sans-serif;
   font-weight: 500;
+}
+
+label {
+  font-size: 80%;
 }
 
 header {
@@ -32,6 +41,13 @@ header {
 
 footer {
   border-top: 1px solid darkgray;
+}
+
+textarea {
+  color: rgb(202, 202, 202);
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  text-align: center;
 }
 
 .justify-right {
@@ -72,6 +88,7 @@ footer {
 }
 
 .col-1-2 {
+  margin-top: 0;
   flex-basis: 50%;
 }
 
@@ -89,6 +106,12 @@ footer {
   display: flex;
 }
 
+.infocols2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .infocols3 {
   margin-top: 2rem;
   display: flex;
@@ -99,7 +122,6 @@ footer {
   margin: 0;
   flex-basis: calc(100% / 3);
   padding: 1rem;
-  text-align: center;
 }
 
 .team {
@@ -283,6 +305,72 @@ button.contact-us:hover {
   font-weight: 300;
   color: rgb(100, 100, 100);
   margin-right: 0.5rem;
+}
+
+.sub-field {
+  display: block;
+  margin: 2rem auto;
+  border: none;
+  width: 450px;
+  font-size: 115%;
+  border-bottom: 1px lightgray solid;
+  padding: 0.25rem 0.75rem;
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgb(241, 241, 241);
+}
+
+input::placeholder {
+  color: rgb(202, 202, 202);
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+textarea:focus {
+  outline: none;
+  background-color: rgb(241, 241, 241);
+}
+
+.blogcol {
+  margin: 2rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news {
+  margin: 0;
+  padding: 1rem 1rem;
+}
+
+.news p {
+  text-align: left;
+  padding: 0;
+}
+
+.newsimg {
+  max-width: 100%;
+  max-height: 270px;
+  overflow: hidden;
+}
+
+.newsimg img {
+  max-width: 100%;
+}
+
+.contact-col {
+  margin-right: 8rem;
+}
+
+.contact-ph {
+  font-size: 150%;
+  color: rgb(36, 99, 161);
+  margin: 1rem 0;
 }
 
 .learn-more {
