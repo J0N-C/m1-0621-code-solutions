@@ -16,9 +16,13 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 115%;
+  font-size: 100%;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 90%;
 }
 
 img {
@@ -41,5 +45,5 @@ img {
 
 .icon {
   margin: auto;
-  max-width: 100px;
+  max-width: 70px;
 }
