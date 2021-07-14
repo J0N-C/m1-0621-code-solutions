@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 115%;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.graybkg {
+  padding: 1rem 8rem;
+  background-color: rgb(245, 245, 245);
+}
+
+.col-flex {
+  display: flex;
+}
+
+.cols-1-4 {
+  padding: 1rem;
+  flex-basis: 25%;
+}
+
+.icon {
+  margin: auto;
+  max-width: 100px;
+}
