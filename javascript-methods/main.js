@@ -9,6 +9,7 @@ var randomNumber = Math.random();
 randomNumber *= heroes.length;
 var randomIndex = Math.floor(randomNumber);
 var randomHero = heroes[randomIndex];
+console.log('Value of randomIndex: ', randomIndex);
 console.log('Value of randomHero: ', randomHero);
 
 var library = [
