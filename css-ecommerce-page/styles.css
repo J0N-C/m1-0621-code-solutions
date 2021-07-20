@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  margin: 0 4rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 175%;
+  margin: 1rem;
+  text-align: center;
+}
+
+.main {
+  margin: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1-5 {
+  flex-basis: 20%;
+  padding: 0.5rem;
+}
+
+.productimg {
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.productimg img {
+  height: 100%;
+}
+
+.info {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.info p {
+  display: inline;
+}
+
+.graytxt {
+  font-weight: normal;
+  color: lightgray;
+  border-left: 1px lightgray solid;
+  padding-left: 0.25rem;
+}
+
+.price {
+  background-color: rgb(255, 229, 206);
+}
+
+.old {
+  border: none;
+  text-decoration: line-through;
+}
