@@ -37,7 +37,7 @@ body {
   padding: 25px;
   text-align: center;
   width: 600px;
-  height: 225px;
+  height: 250px;
   border-radius: 6px;
   background-color: white;
 }
@@ -48,7 +48,7 @@ body {
 
 .modal-cover > div > button {
   font-size: 1.5rem;
-  margin: auto;
+  margin: 1.5rem auto;
   padding: 0.5rem 2rem;
   color: white;
   background-color: rgb(255, 89, 89);
