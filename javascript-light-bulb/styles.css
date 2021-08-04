@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+  height: 800vh;
+  padding: 250px;
+}
+
+.bulb {
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 250px;
+}
+
+.container.on {
+  background-color: rgb(255, 250, 233);
+}
+
+.bulb.on {
+  background-color: rgb(255, 227, 151);
+  box-shadow: 0 0 20px 20px rgb(255, 239, 196);
+}
+
+.container.off {
+  background-color: rgb(22, 22, 22);
+}
+
+.bulb.off {
+  background-color: rgb(39, 39, 39);
+  box-shadow: 0 0 20px 20px rgb(18, 18, 18);
+}
